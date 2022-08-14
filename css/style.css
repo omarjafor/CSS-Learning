@@ -1,5 +1,10 @@
-#first p{
+#first{
     color: blue;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
 }
 
 #p1{
@@ -11,10 +16,11 @@
     color:rgb(13, 9, 236);
 }
 #h2{
-    font-size: 40px;
+    font-size: 20px;
 }
-/*
-This is just a comment to know how to comment in CSS 
+
+/*This is just a comment to know how to comment in CSS */
+
 #bg{
     background-color: aqua;
     background-image: url(../images/1.jpg), url(../images/3.jpg);
@@ -29,7 +35,7 @@ body{
     background-attachment: fixed;
     background-size: 100% 100%;
 }
-
+/*
 #p2{
     color: black;
     border-style: solid dashed groove dotted;
