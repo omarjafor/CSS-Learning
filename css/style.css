@@ -1,4 +1,4 @@
-p{
+#first p{
     color: blue;
 }
 
@@ -6,6 +6,7 @@ p{
     color: purple;
     background-color: aqua;
 }
+/*
 .heading{
     color:rgb(13, 9, 236);
 }
@@ -268,6 +269,7 @@ caption{
 /*tr{
      Table dosn't take border in tr tag 
 }*/
+/*
 th{
     border: 1px solid black;
     height: 50px;
@@ -704,3 +706,4 @@ h1{
 #grid-5{
     grid-area: 1/2/3/4;
 }
+*/
