@@ -10,13 +10,21 @@
 #p1{
     color: purple;
     background-color: aqua;
+    text-align: center;
 }
 
 .heading{
-    color:rgb(13, 9, 236);
+    color: purple;
+    text-align: center;
+    padding: 5px;
+    background-color: aqua;
+    font-weight: bold;
+    font-size: large;
 }
 #h2{
     font-size: 20px;
+    text-align: center;
+    color: black;
 }
 
 /*This is just a comment to know how to comment in CSS */
