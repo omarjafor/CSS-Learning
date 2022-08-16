@@ -69,11 +69,11 @@ body{
     border-top-style: double;
     border-top-color: purple;
     border-top-width: 10px;
-}/*
+}
 #div1{
     border: 1px solid blue;
     background-color: aqua;
-    height: 0%;
+    height: auto;
     width: 70%;
     min-height: 50%;
     min-width: 40%;
@@ -86,6 +86,7 @@ body{
     padding-bottom: 50px;
 
 }
+/*
 #divborder{
     border: 5px dotted black;
 }
