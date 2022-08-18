@@ -105,22 +105,22 @@ body{
     margin-bottom: 50px;
     margin-left: 100px;
     margin-right: 100px;
-} /*
+} 
 .text{
     border: 5px solid black;
     color: blueviolet;
-    width: 500px;
     text-align: right;
-    text-decoration: underline;
+    text-decoration: none;
     text-transform: capitalize;
     line-height: auto;
-    text-indent: 50px;
+    text-indent: auto;
     letter-spacing: 2px;
     word-spacing: 5px;
     word-wrap: break-word;
-    white-space: pre; 
-    writing-mode: vertical-lr;
+    white-space: auto;
+    writing-mode: horizontal-tb;
 }
+
 img{
     vertical-align: middle;
 }
@@ -148,6 +148,7 @@ a:active{
     color: purple;
     font-size: 40px;
 } 
+/*
 #fonth{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 800;
