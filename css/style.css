@@ -52,12 +52,9 @@ body{
 #pp2{
     color: black;
     border-style: solid dashed groove dotted;
-    border-color: green red yellow purple;
-    border-width: 5px 10px 5px 10px;
-    border-radius: 10px;
-    border-top-style: dotted;
-    border-top-color: blue;
-    border-top-width: 5px;
+    border-color: green red fuchsia aqua;
+    border-width: 15px 10px 15px 10px;
+    border-radius: 15px;
 }
 
 #pp3{
