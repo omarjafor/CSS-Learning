@@ -30,6 +30,7 @@
     font-size: 20px;
     text-align: center;
     color: black;
+    border-radius: 50px;
 }
 
 /*This is just a comment to know how to comment in CSS */
@@ -89,24 +90,22 @@ body{
     padding-bottom: 50px;
 
 }
-/*
+
 #divborder{
     border: 5px dotted black;
 }
 .div1{
-    border: 1px solid red;
+    border: 2px solid blue;
 }
 #marg{
     margin-bottom: 80px;
 }
 #margin{
     margin-top: 50px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 1000px;
-    margin: 100px auto;
-} 
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+} /*
 .text{
     border: 5px solid black;
     color: blueviolet;
