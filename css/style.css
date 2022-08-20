@@ -1,3 +1,13 @@
+html{
+    font-size: medium;
+}
+body{
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 #first1{
     color: blue;
     text-align: center;
@@ -46,14 +56,6 @@
     height: 300px;
     color: white;
     overflow: scroll;
-}
- 
-body{
-    background-image: url(../images/2.jpg);
-    background-repeat: no-repeat;
-    
-    background-attachment: fixed;
-    background-size: 100% 100%;
 }
 
 #pp2{
@@ -129,11 +131,20 @@ img{
     text-shadow: 10px 5px 7px blue;
 
 }
+#alink{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 550px;
+    padding: 0px 10px;
+}
 a{
     text-decoration: none;
 }
 a:link{
-    color: gray;
+    color: blue;
     font-size: 30px;
 }
 a:visited{
@@ -148,10 +159,10 @@ a:active{
     color: purple;
     font-size: 40px;
 } 
-/*
+
 #fonth{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 800;
+    font-weight: 800px;
 }
 #fontp{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -160,32 +171,37 @@ a:active{
     font-style: italic;
     font-variant: small-caps;
 }
-html{
-    font-size: 10px;
-}
-#parent{
+
+#parents{
     border: 1px solid red;
     width: 50vw;
     height: 50vh;
-    font-size: 4rem;
+    font-size: 3rem;
+    margin-left: 300px;
+    text-align: center;
 }
-#child{
+#childs{
     border: 1px solid black;
     width: 50%;
     height: 50%;
     font-size: 2rem;
+    margin-left: 180px;
+    text-align: center;
 }
-#cursor{
+#cursord{
     border: 1px solid red !important;
-    cursor: zoom-out !important;
+    cursor: zoom-out ;
+    margin: 50px;
+    font-size: medium;
+    text-align: center;
 
 }
-#cursor{
+#cursord{
     border: 1px solid green;
-    cursor: zoom-in;
+    cursor: zoom-in !important;
 
 }
-#box{
+#colorbox{
     border: 1px solid red;
     width: 500px;
     background-color: orange;
@@ -198,20 +214,29 @@ html{
     height: 300px; width: 600px;
     margin-bottom: 20px;
     opacity: 1;
+    margin-left: 250px;
 }
-img:hover{
+#imgcb{
+    margin-left: 300px;
+    height: 350px;
+    width: 500px;
+}
+#imgcb:hover{
     height:300px; width:600px;
     margin-top: -50px;
     opacity: 0.5;
+    
 }
 #redbox{
     background-color: red;
-    height: 300px; width: 600px;
+    height: 350px;
+    width: 500px;
     margin-top: -100px;
     margin-bottom: 20px;
     opacity: 0.5;
+    margin-left: 300px;
 }
-img{
+#imgsp{
     height: 300px; width: 600px;
     filter: blur(5px);
     filter: brightness(50%);
@@ -252,7 +277,7 @@ img{
     resize: horizontal;
     resize: vertical;
     resize: both;
-}
+}/*
 ul{
     list-style-type: armenian;
     list-style-type: circle;
