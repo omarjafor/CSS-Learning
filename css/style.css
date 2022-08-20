@@ -249,6 +249,7 @@ a:active{
     filter: saturate(50%);
     filter: sepia(50%);
     filter: brightness(50%), contrast(70%);
+    margin-left: 300px;
 }
 #sprite{
     height: 128px;
@@ -256,6 +257,7 @@ a:active{
     background-repeat: no-repeat;
     background-position: 0px -143px;
     background-position: 0px -288px;
+    margin-left: 300px;
 }
 #gradiant{
     height: 500px;
@@ -277,7 +279,11 @@ a:active{
     resize: horizontal;
     resize: vertical;
     resize: both;
-}/*
+    margin-left: 300px;
+}
+#hlist{
+    margin-left: 300px;
+}
 ul{
     list-style-type: armenian;
     list-style-type: circle;
@@ -292,15 +298,18 @@ ul{
     list-style-type: square;
     list-style-image: url('../images/6.png');
     list-style-position: inside;
+    margin-left: 300px;
 }
 ol{
     list-style-image: url('../images/6.png');
     list-style-position: inside;
+    margin-left: 300px;
 }
 li{
     border: 1px solid black;
     width: 500px;
 }
+
 table{
     border: 1px solid black;
     border-collapse: collapse; 
@@ -318,7 +327,7 @@ caption{
 /*tr{
      Table dosn't take border in tr tag 
 }*/
-/*
+
 th{
     border: 1px solid black;
     height: 50px;
@@ -331,7 +340,7 @@ td{
     padding: 10px;
     text-align: center;
     vertical-align: bottom;
-} 
+} /*
 :root{
     --primary-color: rgb(37, 117, 192);
     --border-color: rgb(0, 0, 0);
