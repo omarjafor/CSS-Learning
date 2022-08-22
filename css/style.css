@@ -364,11 +364,13 @@ td{
     margin-left: 580px;
     text-decoration: none;
 
-}/*
+}
 #box1{
     background-color: purple;
     height: 200px; width: 500px;
     color: white;
+    margin-left: 400px;
+    text-align: center;
 }
 #box2{
     background-color: blue;
@@ -377,7 +379,8 @@ td{
     padding: 50px;
     color: white;
     box-sizing: border-box;
-}
+    margin-left: 400px;
+}/*
 #red{
     color: rgb(247, 241, 241);
 }
