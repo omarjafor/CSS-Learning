@@ -560,17 +560,18 @@ h2::after{
     padding: 10px;
     float: right;
     
-}/*
-ul{
+}
+#liststy ul{
     border: 1px solid red;
     list-style-type: none;
     background-color: purple;
     overflow: auto;
 }
-li{
+#liststy li{
     color: aqua;
     padding: 10px 15px;
     float: left;
+    display: inline;
 }
 #content{
     height: 100px;
@@ -587,7 +588,7 @@ li{
 #footer{
     background-color: green;
     clear: both;
-}
+}/*
 #two{
     padding: 20px;
     margin: 20px;
