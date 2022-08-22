@@ -380,9 +380,10 @@ td{
     color: white;
     box-sizing: border-box;
     margin-left: 400px;
-}/*
+}
 #red{
-    color: rgb(247, 241, 241);
+    color: rgb(21, 100, 11);
+    margin-left: 350px;
 }
 #blue{
     color: blue;
@@ -393,53 +394,60 @@ td{
 #inherit{
     color: inherit;
 }
-img{
+#imgss{
     border: 5px solid red;
     height: 500px; width: 600px;
     object-fit: cover;
     object-position: top center;
+    margin-left: 400px;
 }
-li:first-child{
+#lids li:first-child{
     color: aqua;
 }
-li:last-child{
+#lids li:last-child{
     color: red;
 }
-li:nth-child(4){
+#lids li:nth-child(4){
     color: blue;
 }
-li:nth-child(odd){
+#lids li:nth-child(odd){
     color: green;
 }
-li:nth-child(even){
+#lids li:nth-child(even){
     color: blueviolet;
 }
-li:nth-child(2n + 1){
+#lids li:nth-child(2n + 1){
     color: fuchsia;
 }
-li:nth-last-child(2){
+#lids li:nth-last-child(2){
     color: gold;
+}
+#inp{
+    margin-left: 400px;
 }
 input:focus {
     background-color: fuchsia;
 }
-p::first-letter{
-    font-size: 30px;
-    color: rebeccapurple;
+#pid{
+    margin-left: 400px;
 }
-p::first-line{
+#pid p::first-letter{
     font-size: 30px;
     color: red;
 }
+#pid p::first-line{
+    font-size: 30px;
+    color: rgb(7, 32, 70);
+}/*
 h2::before{
     content: url('../images/6.png');
 }
 h2::after{
-    content: url('../images/6.png');
+    content: url('../images/sprite.webp');
 }
 h2::after{
     content: " Practice";
-}
+}*/
 ::selection{
     color: blue;
     background-color: white;
@@ -457,7 +465,7 @@ h2::after{
 #div3{
     display: none;
     visibility: hidden;
-}
+}/*
 #parent{
     border: 1px solid red;
     width: 50%;
