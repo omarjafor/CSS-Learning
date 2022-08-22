@@ -778,9 +778,9 @@ h1{
     grid-column: 1/4;
 }
 #grid-1{
-    grid-row: ;
+    grid-row: 0;
 }
 #grid-5{
-    grid-area: ;
+    grid-area: 0;
 }/*
 */
