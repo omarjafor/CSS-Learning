@@ -588,15 +588,15 @@ h2::after{
 #footer{
     background-color: green;
     clear: both;
-}/*
-#two{
+}
+#twof{
     padding: 20px;
     margin: 20px;
     background-color: yellow;
     transform: matrix(scaleX(), skewY(), skewX() scaleY(), translateX(), translateY());
     transform: matrix(1, -0.5, 0, 1, 0, 0);
 }
-a{
+#ats{
     text-decoration: none;
     color: white;
     background-color: blueviolet;
@@ -608,7 +608,7 @@ a{
     transform-origin: 0% 100%;
 
 }
-a:hover{
+#ats:hover{
     margin: 100px;
     display: inline-block;
     transform: translate(50px, 50px); 
@@ -618,13 +618,13 @@ a:hover{
    transform: scaleY(0.3);
    
 }
-#cover{
+#coverf{
     border: 5px solid red;
     height: 200px;
     width: 200px;
     margin: 150px;
 }
-#content{
+#contentts{
     height: 200px;
     width: 200px;
     background-color: aqua;
@@ -633,7 +633,7 @@ a:hover{
     transform: perspective(200px) rotate3d(0, 0, 50, 30deg);
     transform: perspective(200px) translate3d(50px, 50px, 20px);
 }
-#div1{
+#div1ds{
     
     margin: 150px;
     height: 100px;
@@ -641,7 +641,7 @@ a:hover{
     
     
 }
-#div2{
+#div2ts{
     border: 1px solid red;
     text-align: center;
     padding: 30px 15px;
@@ -655,7 +655,7 @@ a:hover{
     
     
 }
-#div2:hover{
+#div2ts:hover{
     display: inline-block;
     transform: rotate(180deg);
     color: black;
@@ -735,22 +735,22 @@ h1{
     width: 100px;
     text-align: center;
 }
-#one{
+#onets{
     order: 1;
     flex-grow: 1;
     flex-shrink: 1;
     align-self: flex-start;
 
 }
-#two{
-    order: 1;
+#twots{
+    order: 2;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis:1 ;
     align-self: center;
 }
-#three{
-    order: 1;
+#threets{
+    order: 3;
     flex-grow: 1;
     flex-shrink: 1;
     align-self: flex-end;
@@ -778,9 +778,9 @@ h1{
     grid-column: 1/4;
 }
 #grid-1{
-    grid-row: 1/5;
+    grid-row: ;
 }
 #grid-5{
-    grid-area: 1/2/3/4;
-}
+    grid-area: ;
+}/*
 */
