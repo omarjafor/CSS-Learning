@@ -2,11 +2,12 @@ html{
     font-size: medium;
 }
 body{
-    background-image: url(../images/);
+    background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-color: cyan;
     background-attachment: fixed;
     background-size: 100% 100%;
+    color: white;
 }
 #first1{
     color: rgb(81, 11, 194);
