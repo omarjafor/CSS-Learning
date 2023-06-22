@@ -43,7 +43,7 @@ body{
     border-radius: 50px;
 }
 
-/*This is just a comment to know how to comment in CSS */
+/* This is just a comment to know how to comment in CSS */
 
 #bgd{
     border: 5px solid red;
@@ -77,8 +77,8 @@ body{
     border-top-width: 10px;
 }
 #div1{
-    border: 1px solid blue;
-    background-color: aqua;
+    border: 1px solid rgb(1, 172, 58);
+    background-color: rgb(16, 45, 212);
     height: auto;
     width: 70%;
     min-height: 50%;
@@ -90,7 +90,7 @@ body{
     padding-right: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
-    color: rgb(48, 138, 13);
+    color: rgb(239, 245, 237);
     margin-left: 10%;
 }
 #divborder{
@@ -210,7 +210,7 @@ a:active{
     box-shadow: -10px 15px 5px 3px red inset, 10px 15px 5px 3px rgb(200, 221, 14), 10px -15px 5px 3px rgb(161, 11, 190);
 }
 #colorbox{
-    background-color: aqua;
+    background-color: rgb(14, 11, 224);
     height: 300px; width: 600px;
     margin-bottom: 20px;
     opacity: 1;
@@ -268,9 +268,9 @@ a:active{
     background-image: radial-gradient(circle,blue 20%, purple 30%, green 50%);
 }
 #overflow{
-    background-color: aqua;
-    border: 1px solid blue;
-    height: 300px; width: 600px;
+    background-color: rgb(4, 31, 31);
+    border: 2px solid rgb(231, 231, 240);
+    height: 150px; width: 600px;
     overflow: hidden;
     overflow: scroll;
     overflow-x: hidden;
@@ -589,78 +589,7 @@ h2::after{
     background-color: green;
     clear: both;
 }
-#twof{
-    padding: 20px;
-    margin: 20px;
-    background-color: yellow;
-    transform: matrix(scaleX(), skewY(), skewX() scaleY(), translateX(), translateY());
-    transform: matrix(1, -0.5, 0, 1, 0, 0);
-}
-#ats{
-    text-decoration: none;
-    color: white;
-    background-color: blueviolet;
-    padding: 10px 20px;
-    display: inline-block;
-    transform: skew(20deg, 10deg);
-    transform: skewX(20deg);
-    transform: rotate(20deg);
-    transform-origin: 0% 100%;
 
-}
-#ats:hover{
-    margin: 100px;
-    display: inline-block;
-    transform: translate(50px, 50px); 
-   transform: rotate(30deg);
-   transform: scale(2, 3);
-   transform: scaleX(0.2);
-   transform: scaleY(0.3);
-   
-}
-#coverf{
-    border: 5px solid red;
-    height: 200px;
-    width: 200px;
-    margin: 150px;
-}
-#contentts{
-    height: 200px;
-    width: 200px;
-    background-color: aqua;
-    transform: perspective(200px) rotate3d(50, 0, 0, 30deg);
-    transform: perspective(200px) rotate3d(0, 50, 0, 30deg);
-    transform: perspective(200px) rotate3d(0, 0, 50, 30deg);
-    transform: perspective(200px) translate3d(50px, 50px, 20px);
-}
-#div1ds{
-    
-    margin: 150px;
-    height: 100px;
-    width: 100px;
-    
-    
-}
-#div2ts{
-    border: 1px solid red;
-    text-align: center;
-    padding: 30px 15px;
-    color: white;
-    background-color: purple;
-    transition-property: all;
-    transition-duration: 1s;
-    transition-delay: 500ms;
-    transition-timing-function: ease-in-out;
-    transition: all 2s;
-    
-    
-}
-#div2ts:hover{
-    display: inline-block;
-    transform: rotate(180deg);
-    color: black;
-    background-color: blueviolet;
-}
 @keyframes changecolor {
     0% { background-color: aqua; width: 100px; border-radius: 0%;}
     10% { background-color: greenyellow; width: 200px; border-radius: 10%;}
@@ -782,5 +711,7 @@ h1{
 }
 #grid-5{
     grid-area: 0;
-}/*
+}
+
+/*
 */
