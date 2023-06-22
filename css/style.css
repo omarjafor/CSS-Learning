@@ -2,9 +2,9 @@ html{
     font-size: medium;
 }
 body{
-    background-image: url(../images/2.jpg);
+    background-image: url(../images/);
     background-repeat: no-repeat;
-    
+    background-color: cyan;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
@@ -90,9 +90,9 @@ body{
     padding-right: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
-
+    color: rgb(48, 138, 13);
+    margin-left: 10%;
 }
-
 #divborder{
     border: 5px dotted black;
 }
