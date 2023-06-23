@@ -57,19 +57,30 @@ marquee{
 }
 
 /* This is just a comment to know how to comment in CSS */
-
-#bgd{
-    border: 5px solid red;
-    background-color: aqua;
-    background-image: url(../images/1.jpg), url(../images/3.jpg);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: right, left;
-    background-position-y: 0px;
-    
-    color: white;
-    overflow: scroll;
+.button {
+    margin-top: 10px;
 }
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.success {background-color: #04AA6D; }
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;}
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;}
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;}
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7;}
+.default:hover {background: black;}
 
 #pp2{
     color: black;
