@@ -36,6 +36,7 @@ marquee{
     font-size: larger;
 }
 
+
 #p1{
     color: purple;
     background-color: aqua;
@@ -84,7 +85,7 @@ marquee{
 /* How to - login form in a menu */
 .topnav2 {
     overflow: hidden;
-    background-color: #e9e9e9;
+    background-color: #9ef33d;
     margin-top: 10px;
 }
 .topnav2 a {
@@ -94,7 +95,8 @@ marquee{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: bolder;
 }
 .topnav2 a:hover {
     background-color: #ddd;
@@ -118,7 +120,7 @@ marquee{
     float: right;
     padding: 6px;
     margin-top: 8px;
-    margin-right: 16px;
+    margin-right: 14px;
     background: #ddd;
     font-size: 17px;
     border: none;
