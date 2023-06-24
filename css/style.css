@@ -88,6 +88,42 @@ marquee{
 
 .default {background-color: #e7e7e7;}
 .default:hover {background: black;}
+/* How To Style Search Buttons */
+.example {
+    box-sizing: border-box;
+    margin-top: 10px;
+    
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+form.example button {
+    float: left;
+    width: 18%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* How to - login form in a menu */
 .topnav2 {
     overflow: hidden;
