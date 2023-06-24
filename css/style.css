@@ -146,24 +146,7 @@ marquee{
     }
 }
 
-#pp2{
-    color: black;
-    border-style: solid dashed groove dotted;
-    border-color: green red fuchsia aqua;
-    border-width: 15px 10px 15px 10px;
-    border-radius: 15px;
-}
 
-#pp3{
-    color: black;
-    border-style: solid ;
-    border-color: green;
-    border-width: 5px 10px;
-    border-radius: 20px;
-    border-top-style: double;
-    border-top-color: purple;
-    border-top-width: 10px;
-}
 #div1{
     border: 1px solid rgb(1, 172, 58);
     background-color: rgb(16, 45, 212);
@@ -181,21 +164,7 @@ marquee{
     color: rgb(239, 245, 237);
     margin-left: 10%;
 }
-#divborder{
-    border: 5px dotted black;
-}
-.div1{
-    border: 2px solid blue;
-}
-#marg{
-    margin-bottom: 80px;
-}
-#margin{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-} 
+
 .text{
     border: 5px solid black;
     color: blueviolet;
@@ -211,14 +180,7 @@ marquee{
     writing-mode: horizontal-tb;
 }
 
-img{
-    vertical-align: middle;
-}
-#shadow{
-    font-size: 80px;
-    text-shadow: 10px 5px 7px blue;
 
-}
 #alink{
     justify-content: center;
     text-align: center;
@@ -514,7 +476,7 @@ td{
     margin-left: 400px;
 }
 input:focus {
-    background-color: fuchsia;
+    background-color: rgb(187, 219, 177);
 }
 #pid{
     margin-left: 400px;
@@ -702,6 +664,3 @@ h1{
 #grid-5{
     grid-area: 0;
 }
-
-/*
-*/
