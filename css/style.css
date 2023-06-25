@@ -1,5 +1,6 @@
 html{
     font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
     background-image: url(../images/bg.jpg);
@@ -15,8 +16,6 @@ body{
         background-color: lightblue;
     }
 }
-
-
 
 .topnav{
     background-color: #333;
@@ -45,7 +44,16 @@ marquee{
     font-size: larger;
 }
 /* How To Style A Responsive Design */
-
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 /* ----------------------  */
 #p1{
