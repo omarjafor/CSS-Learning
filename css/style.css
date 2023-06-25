@@ -15,6 +15,9 @@ body{
         background-color: lightblue;
     }
 }
+
+
+
 .topnav{
     background-color: #333;
     overflow: hidden;
@@ -41,8 +44,10 @@ marquee{
     font-weight: bolder;
     font-size: larger;
 }
+/* How To Style A Responsive Design */
 
 
+/* ----------------------  */
 #p1{
     color: purple;
     background-color: aqua;
@@ -312,7 +317,7 @@ a:active{
 #hlist{
     margin-left: 300px;
 }
-ul{
+/* ul{
     list-style-type: armenian;
     list-style-type: circle;
     list-style-type: decimal;
@@ -332,7 +337,7 @@ ol{
     list-style-image: url('../images/6.png');
     list-style-position: inside;
     margin-left: 300px;
-}
+} */
 li{
     border: 1px solid black;
     width: 500px;
@@ -611,9 +616,9 @@ h2::after{
     column-rule: 1px solid rebeccapurple;
     column-width: 300px;
 }
-h1{
+/* h1{
     column-span: all;
-}
+} */
 
 .grid-container{
     padding: 20px;
