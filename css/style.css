@@ -645,19 +645,24 @@ h2::after{
 }
 #content{
     height: 100px;
-    width: 70%;
+    width: 60%;
     background-color: blueviolet;
     float: left;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
 }
 #sidebar{
     height: 100px;
-    width: 30%;
+    width: 40%;
     background-color: aqua;
     float: left;
 }
 #footer{
     background-color: green;
     clear: both;
+    height: 80px;
 }
 
 @keyframes changecolor {
