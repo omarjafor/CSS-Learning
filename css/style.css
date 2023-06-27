@@ -123,6 +123,7 @@ img {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
 .imghp {
+    margin-top: 15px;
     background-color: #506deb;
 }
 .footer {
@@ -131,7 +132,7 @@ img {
     text-align: center;
     font-size: 12px;
     padding: 15px;
-    margin-top: 50px;
+    margin-top: 35px;
   }
 /* ----------------------  */
 #p1{
