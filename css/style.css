@@ -658,11 +658,20 @@ h2::after{
     width: 40%;
     background-color: aqua;
     float: left;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
 }
 #footer{
     background-color: green;
     clear: both;
     height: 80px;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
 }
 
 @keyframes changecolor {
