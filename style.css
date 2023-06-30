@@ -134,7 +134,7 @@ img {
     padding: 15px;
     margin-top: 35px;
   }
-/* ----------------------  */
+
 #p1{
     color: purple;
     background-color: aqua;
@@ -180,6 +180,7 @@ img {
 
 .default {background-color: #e7e7e7;}
 .default:hover {background: black;}
+
 /* How To Style Search Buttons */
 .example {
     box-sizing: border-box;
@@ -380,10 +381,10 @@ a:active{
 #gradiant{
     height: 500px;
     border: 1px solid aqua;
-    background-image: linear-gradient(to right bottom, blue, purple, green);
-    background-image: linear-gradient(to right top, blue, purple, green);
-    background-image: linear-gradient(150deg, blue, purple, green);
-    background-image: radial-gradient(circle,blue 20%, purple 30%, green 50%);
+    /* background-image: linear-gradient(to left bottom, blue, purple, green);
+    background-image: linear-gradient(to right top, blue, purple, green); */
+    background-image: linear-gradient(150deg, rgb(30, 218, 161), rgb(44, 36, 167), rgb(5, 168, 5));
+    /* background-image: radial-gradient(circle,blue 20%, purple 30%, green 50%); */
 }
 #overflow{
     background-color: rgb(4, 31, 31);
@@ -391,12 +392,10 @@ a:active{
     height: 150px; width: 600px;
     overflow: hidden;
     overflow: scroll;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    overflow: auto;
-    resize: horizontal;
+    resize: none;
+    /* resize: horizontal;
     resize: vertical;
-    resize: both;
+    resize: both; */
     margin-left: 300px;
 }
 #hlist{
