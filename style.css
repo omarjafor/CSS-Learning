@@ -280,7 +280,6 @@ form.example::after {
     }
 }
 
-
 #div1{
     border: 1px solid rgb(1, 172, 58);
     background-color: rgb(16, 45, 212);
@@ -313,7 +312,6 @@ form.example::after {
     white-space: auto;
     writing-mode: horizontal-tb;
 }
-
 
 #alink{
     justify-content: center;
@@ -445,9 +443,6 @@ caption{
     caption-side: bottom;
     
 }
-/*tr{
-     Table dosn't take border in tr tag 
-}*/
 
 th{
     border: 1px solid white;
@@ -558,16 +553,7 @@ input:focus {
 #pid p::first-line{
     font-size: 30px;
     color: rgb(7, 32, 70);
-}/*
-h2::before{
-    content: url('../images/6.png');
 }
-h2::after{
-    content: url('../images/sprite.webp');
-}
-h2::after{
-    content: " Practice";
-}*/
 ::selection{
     color: blue;
     background-color: white;
@@ -717,9 +703,6 @@ h2::after{
     column-rule: 1px solid rebeccapurple;
     column-width: 300px;
 }
-/* h1{
-    column-span: all;
-} */
 
 .grid-container{
     padding: 20px;
