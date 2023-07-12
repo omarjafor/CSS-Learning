@@ -1,3 +1,7 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
 html{
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Unicode', sans-serif;
@@ -572,6 +576,10 @@ input:focus {
     height: 100px;
     width: 100px;
     display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
 }
 #two{
     background-color: blue;
@@ -587,6 +595,8 @@ input:focus {
     height: 100px;
     width: 100px;
     display: inline-block;
+    position: relative;
+    z-index: 4;
 }
 
 #pts{
