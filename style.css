@@ -131,6 +131,9 @@ img {
     margin-top: 15px;
     background-color: #506deb;
 }
+.imghp p::first-letter{
+    font-size: 2em;
+}
 .footer {
     background-color: #506deb;
     color: #ffffff;
@@ -188,9 +191,7 @@ img {
 
 /* How To Style Search Buttons */
 .example {
-    box-sizing: border-box;
     margin-top: 10px;
-    
 }
 form.example input[type=text] {
     padding: 10px;
@@ -202,7 +203,7 @@ form.example input[type=text] {
 }
 form.example button {
     float: left;
-    width: 18%;
+    width: 20%;
     padding: 10px;
     background: #2196F3;
     color: white;
