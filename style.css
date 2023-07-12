@@ -599,7 +599,22 @@ input:focus {
     position: relative;
     z-index: 2;
 }
-
+#four{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: fixed;
+    left: 300px;
+    top: 300px;
+}
+#five{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+}
 #pts{
     overflow: auto;
 }
