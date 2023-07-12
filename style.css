@@ -589,6 +589,7 @@ input:focus {
     position: absolute;
     top: 100px;
     left: 100px;
+    z-index: 4;
 }
 #three{
     background-color: yellow;
@@ -596,7 +597,7 @@ input:focus {
     width: 100px;
     display: inline-block;
     position: relative;
-    z-index: 4;
+    z-index: 2;
 }
 
 #pts{
