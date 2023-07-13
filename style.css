@@ -738,8 +738,10 @@ input:focus {
     height: 250px;
     color: black;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    /* justify-content: space-evenly;
+    align-items: center; */
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .box{
     border: 2px solid tomato;
