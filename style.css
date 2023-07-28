@@ -15,12 +15,12 @@ body{
     background-position: center;
     color: white;
 }
-@media only screen and (max-width:600px) {
+/* @media only screen and (max-width:600px) {
     body {
         background-image: none;
         background-color: lightblue;
     }
-}
+} */
 
 .topnav{
     background-color: #333;
@@ -732,6 +732,31 @@ input:focus {
     column-rule-color: red;
     column-rule: 1px solid rebeccapurple;
     column-width: 300px;
+}
+.navph{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+.navph a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+.flex-container{
+    border: 2px solid salmon;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    border: 2px solid tomato;
+    width: 50px;
+    height: 50px;
 }
 
 .grid-container{
